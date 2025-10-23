@@ -48,7 +48,7 @@ Siga os passos abaixo para obter uma cópia local e compilar o projeto.
 Após a compilação, você pode executar o programa a partir do terminal. A sintaxe básica de uso é:
 
 ```sh
-./kmeans <coordenadas do primeiro ponto>
+./kmeans x y
 ```
 
 Em seguida, aparecerá para você colocar o segundo ponto e assim continuará até o máximo definido no código.
