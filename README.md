@@ -1,12 +1,12 @@
 # Algoritmo K-means em C
 
-Implementação do algoritmo de clusterização não-supervisionado K-means em linguagem C. Este projeto foi desenvolvido com foco em eficiência e clareza, oferecendo uma solução robusta para segmentação de dados.
+Implementação do algoritmo de clusterização não-supervisionado K-means em linguagem C.
 
 ## 📖 Sobre o Projeto
 
 O K-means é um dos algoritmos de aprendizado de máquina não-supervisionado mais populares. Seu objetivo é particionar um conjunto de `n` observações em `k` clusters, onde cada observação pertence ao cluster com a média (centroide) mais próxima. O algoritmo busca minimizar a variância dentro de cada cluster, agrupando dados com base em suas similaridades.
 
-Este projeto oferece uma implementação a partir do zero, ideal para fins de estudo e para aplicações que requerem uma solução de clusterização leve e portável.
+Este projeto oferece uma implementação a partir do zero, para fins de estudo e para aplicações que requerem uma solução de clusterização leve e portável.
 
 ## ✨ Funcionalidades
 
@@ -80,3 +80,4 @@ O arquivo de dados de entrada deve ser números pertencentes ao conjunto dos rea
 * [ ] **Implementar K-means++:** Substituir a inicialização aleatória dos centroides pelo algoritmo K-means++ para obter melhores resultados e convergência mais rápida.
 * [ ] **Determinação do `k` ideal:** Incluir métodos para ajudar a determinar o número ótimo de clusters, como o "Método do Cotovelo" (Elbow Method).
 * [ ] **Otimização de performance:** Analisar e otimizar os laços principais do algoritmo para lidar com datasets maiores.
+* [ ] **Input Excel e CSV:** Implementar leitura de arquivos excel e csv.
